@@ -29,7 +29,7 @@
 
     <groupId>io.bootique.azure</groupId>
     <artifactId>bootique-azure-parent</artifactId>
-    <version>3.0.M1</version>
+    <version>3.0.M2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>bootique-azure-parent: Parent of Azure integration modules for Bootique</name>
@@ -49,7 +49,7 @@
     <scm>
         <developerConnection>scm:git:ssh://git@github.com/bootique/bootique-azure</developerConnection>
         <url>https://github.com/bootique/bootique-azure</url>
-        <tag>3.0.M1</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <dependencyManagement>
