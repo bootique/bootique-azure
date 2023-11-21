@@ -24,7 +24,7 @@
     <parent>
         <groupId>io.bootique.azure</groupId>
         <artifactId>bootique-azure-parent</artifactId>
-        <version>3.0.M3-SNAPSHOT</version>
+        <version>3.0-SNAPSHOT</version>
     </parent>
 
     <artifactId>bootique-azure</artifactId>
