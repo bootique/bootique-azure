@@ -27,7 +27,10 @@ import io.bootique.di.BQModule;
 public class AzureModuleProvider implements BQModuleProvider {
 
     @Override
-    public BQModule module() {
-        return new AzureModule();
+    public BuiltModule buildModule() {
+        return BuiltModule.of(new AzureModule())
+                .provider(this)
+                .description("Provides integration with Azure client.")
+                .build();
     }
 }
