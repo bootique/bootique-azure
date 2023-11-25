@@ -19,7 +19,8 @@
 package io.bootique.azure;
 
 import io.bootique.BQModuleProvider;
-import io.bootique.di.BQModule;
+import io.bootique.bootstrap.BuiltModule;
+
 
 /**
  * @since 3.0
